@@ -35,12 +35,9 @@ final class MaskNetwork {
                     } else {
                         observer.onNext(.failure(.defaultE))
                     }
-                    
                 case .failure(let err):
                     observer.onNext(.failure(.err(err.errorDescription ?? "")))
-                                        
                 }
-                
             }
         return Disposables.create()
 

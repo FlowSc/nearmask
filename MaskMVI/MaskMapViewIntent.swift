@@ -56,7 +56,6 @@ class MaskMapViewIntent {
         }.filterNil()
         
         success.subscribe(onNext: { (r) in
-            print(r)
             self.stateObserver.accept(MaskResult(r: r))
         }).disposed(by: disposeBag)
         

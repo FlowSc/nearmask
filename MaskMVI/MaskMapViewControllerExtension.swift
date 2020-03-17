@@ -46,9 +46,7 @@ extension MaskMapViewController: MKMapViewDelegate, CLLocationManagerDelegate {
             guard let res = res else { return }
             
             let route = res.routes[0]
-            
-            print(route.expectedTravelTime, "EXPCTED")
-            
+                        
             self.expectedTime.onNext("도보 \(Int((route.expectedTravelTime / 60).rounded())) 분 거리")
             
             mapView.addOverlays([route.polyline], level: .aboveRoads)

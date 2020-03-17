@@ -11,21 +11,27 @@ PODS:
   - RxAppState (1.5.0):
     - RxCocoa (~> 4.4)
     - RxSwift (~> 4.4)
+  - RxBlocking (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxOptional (3.6.2):
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.5.0)
+  - RxTest (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - AloeStackView
   - Moya/RxSwift
   - RxAppState
+  - RxBlocking
   - RxCocoa
   - RxOptional
   - RxSwift
+  - RxTest
   - SnapKit
 
 SPEC REPOS:
@@ -35,9 +41,11 @@ SPEC REPOS:
     - Moya
     - Result
     - RxAppState
+    - RxBlocking
     - RxCocoa
     - RxOptional
     - RxSwift
+    - RxTest
     - SnapKit
 
 SPEC CHECKSUMS:
@@ -46,11 +54,13 @@ SPEC CHECKSUMS:
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAppState: 46cae19e582daf7283a8f9ef553e7c049e1565b4
+  RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxTest: 3ccb66bfbace0bf7df1c43a7c75d046f8ce60372
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 8a3ff8f56b16a45f5ebfedf727301d949d1da4ea
+PODFILE CHECKSUM: 79e13584afb14efb5b1424afc7ead78930ad14a9
 
 COCOAPODS: 1.8.4

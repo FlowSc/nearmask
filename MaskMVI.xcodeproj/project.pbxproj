@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D89DED2E0A938691B8CEFB /* Pods_MaskMVITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC04645AF5B1DC54BDC71296 /* Pods_MaskMVITests.framework */; };
 		75984B39241A12F2005A1EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B38241A12F2005A1EBC /* AppDelegate.swift */; };
 		75984B3B241A12F2005A1EBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B3A241A12F2005A1EBC /* SceneDelegate.swift */; };
 		75984B40241A12F2005A1EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75984B3E241A12F2005A1EBC /* Main.storyboard */; };
 		75984B42241A12F5005A1EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75984B41241A12F5005A1EBC /* Assets.xcassets */; };
 		75984B45241A12F5005A1EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75984B43241A12F5005A1EBC /* LaunchScreen.storyboard */; };
-		75984B50241A12F5005A1EBC /* MaskMVITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B4F241A12F5005A1EBC /* MaskMVITests.swift */; };
 		75984B5B241A1376005A1EBC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B5A241A1376005A1EBC /* Store.swift */; };
 		75984B5E241A13AE005A1EBC /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B5D241A13AE005A1EBC /* Sale.swift */; };
 		75984B60241A13D0005A1EBC /* StoreSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984B5F241A13D0005A1EBC /* StoreSale.swift */; };
@@ -26,12 +26,12 @@
 		75984BD324206D92005A1EBC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984BD224206D92005A1EBC /* InfoView.swift */; };
 		75984BD524206DD7005A1EBC /* MaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984BD424206DD7005A1EBC /* MaskAnnotationView.swift */; };
 		75984BD724206E4D005A1EBC /* MaskMapViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984BD624206E4D005A1EBC /* MaskMapViewControllerExtension.swift */; };
+		75984C1224208F0B005A1EBC /* MaskMVITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75984C1124208F0B005A1EBC /* MaskMVITests.swift */; };
 		AAB2E7C4FF2383D36A46ED66 /* Pods_MaskMVI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B47C8FA12F2C1B9794C5D3 /* Pods_MaskMVI.framework */; };
-		F0300E382EC21EAA3070BCD3 /* Pods_MaskMVITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC04645AF5B1DC54BDC71296 /* Pods_MaskMVITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		75984B4C241A12F5005A1EBC /* PBXContainerItemProxy */ = {
+		75984C1424208F0B005A1EBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75984B2D241A12F2005A1EBC /* Project object */;
 			proxyType = 1;
@@ -49,9 +49,6 @@
 		75984B41241A12F5005A1EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75984B44241A12F5005A1EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75984B46241A12F5005A1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75984B4B241A12F5005A1EBC /* MaskMVITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskMVITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75984B4F241A12F5005A1EBC /* MaskMVITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskMVITests.swift; sourceTree = "<group>"; };
-		75984B51241A12F5005A1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75984B5A241A1376005A1EBC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		75984B5D241A13AE005A1EBC /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		75984B5F241A13D0005A1EBC /* StoreSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSale.swift; sourceTree = "<group>"; };
@@ -65,6 +62,9 @@
 		75984BD224206D92005A1EBC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		75984BD424206DD7005A1EBC /* MaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskAnnotationView.swift; sourceTree = "<group>"; };
 		75984BD624206E4D005A1EBC /* MaskMapViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskMapViewControllerExtension.swift; sourceTree = "<group>"; };
+		75984C0F24208F0B005A1EBC /* MaskMVITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskMVITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75984C1124208F0B005A1EBC /* MaskMVITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskMVITests.swift; sourceTree = "<group>"; };
+		75984C1324208F0B005A1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85B47C8FA12F2C1B9794C5D3 /* Pods_MaskMVI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaskMVI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2A5CCB939FEAA4ADE6B10 /* Pods-MaskMVITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMVITests.release.xcconfig"; path = "Target Support Files/Pods-MaskMVITests/Pods-MaskMVITests.release.xcconfig"; sourceTree = "<group>"; };
 		C097539B3F5BE2624B36636F /* Pods-MaskMVITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaskMVITests.debug.xcconfig"; path = "Target Support Files/Pods-MaskMVITests/Pods-MaskMVITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,11 +81,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75984B48241A12F5005A1EBC /* Frameworks */ = {
+		75984C0C24208F0B005A1EBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0300E382EC21EAA3070BCD3 /* Pods_MaskMVITests.framework in Frameworks */,
+				62D89DED2E0A938691B8CEFB /* Pods_MaskMVITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				75984B37241A12F2005A1EBC /* MaskMVI */,
-				75984B4E241A12F5005A1EBC /* MaskMVITests */,
+				75984C1024208F0B005A1EBC /* MaskMVITests */,
 				75984B36241A12F2005A1EBC /* Products */,
 				1C2BAAC805A92A8E5AEAEFBE /* Pods */,
 				A9CBC69F471C593A1354BE82 /* Frameworks */,
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				75984B35241A12F2005A1EBC /* 내주변마스크.app */,
-				75984B4B241A12F5005A1EBC /* MaskMVITests.xctest */,
+				75984C0F24208F0B005A1EBC /* MaskMVITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,15 +136,6 @@
 				75984B5C241A137C005A1EBC /* Schemas */,
 			);
 			path = MaskMVI;
-			sourceTree = "<group>";
-		};
-		75984B4E241A12F5005A1EBC /* MaskMVITests */ = {
-			isa = PBXGroup;
-			children = (
-				75984B4F241A12F5005A1EBC /* MaskMVITests.swift */,
-				75984B51241A12F5005A1EBC /* Info.plist */,
-			);
-			path = MaskMVITests;
 			sourceTree = "<group>";
 		};
 		75984B5C241A137C005A1EBC /* Schemas */ = {
@@ -198,6 +189,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		75984C1024208F0B005A1EBC /* MaskMVITests */ = {
+			isa = PBXGroup;
+			children = (
+				75984C1124208F0B005A1EBC /* MaskMVITests.swift */,
+				75984C1324208F0B005A1EBC /* Info.plist */,
+			);
+			path = MaskMVITests;
+			sourceTree = "<group>";
+		};
 		A9CBC69F471C593A1354BE82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,23 +229,24 @@
 			productReference = 75984B35241A12F2005A1EBC /* 내주변마스크.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75984B4A241A12F5005A1EBC /* MaskMVITests */ = {
+		75984C0E24208F0B005A1EBC /* MaskMVITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75984B57241A12F5005A1EBC /* Build configuration list for PBXNativeTarget "MaskMVITests" */;
+			buildConfigurationList = 75984C1624208F0B005A1EBC /* Build configuration list for PBXNativeTarget "MaskMVITests" */;
 			buildPhases = (
-				AC0620A3B271A6734C2EC3C2 /* [CP] Check Pods Manifest.lock */,
-				75984B47241A12F5005A1EBC /* Sources */,
-				75984B48241A12F5005A1EBC /* Frameworks */,
-				75984B49241A12F5005A1EBC /* Resources */,
+				4BD05441ABEC86FF96DAFD08 /* [CP] Check Pods Manifest.lock */,
+				75984C0B24208F0B005A1EBC /* Sources */,
+				75984C0C24208F0B005A1EBC /* Frameworks */,
+				75984C0D24208F0B005A1EBC /* Resources */,
+				AFDFA6FA5E9C19D363463BD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				75984B4D241A12F5005A1EBC /* PBXTargetDependency */,
+				75984C1524208F0B005A1EBC /* PBXTargetDependency */,
 			);
 			name = MaskMVITests;
 			productName = MaskMVITests;
-			productReference = 75984B4B241A12F5005A1EBC /* MaskMVITests.xctest */;
+			productReference = 75984C0F24208F0B005A1EBC /* MaskMVITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +262,7 @@
 					75984B34241A12F2005A1EBC = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					75984B4A241A12F5005A1EBC = {
+					75984C0E24208F0B005A1EBC = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 75984B34241A12F2005A1EBC;
 					};
@@ -281,7 +282,7 @@
 			projectRoot = "";
 			targets = (
 				75984B34241A12F2005A1EBC /* MaskMVI */,
-				75984B4A241A12F5005A1EBC /* MaskMVITests */,
+				75984C0E24208F0B005A1EBC /* MaskMVITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75984B49241A12F5005A1EBC /* Resources */ = {
+		75984C0D24208F0B005A1EBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +347,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaskMVI/Pods-MaskMVI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC0620A3B271A6734C2EC3C2 /* [CP] Check Pods Manifest.lock */ = {
+		4BD05441ABEC86FF96DAFD08 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,6 +367,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDFA6FA5E9C19D363463BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaskMVITests/Pods-MaskMVITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaskMVITests/Pods-MaskMVITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaskMVITests/Pods-MaskMVITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -393,21 +411,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75984B47241A12F5005A1EBC /* Sources */ = {
+		75984C0B24208F0B005A1EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75984B50241A12F5005A1EBC /* MaskMVITests.swift in Sources */,
+				75984C1224208F0B005A1EBC /* MaskMVITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75984B4D241A12F5005A1EBC /* PBXTargetDependency */ = {
+		75984C1524208F0B005A1EBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75984B34241A12F2005A1EBC /* MaskMVI */;
-			targetProxy = 75984B4C241A12F5005A1EBC /* PBXContainerItemProxy */;
+			targetProxy = 75984C1424208F0B005A1EBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,6 +503,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = MaskMVI;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -538,6 +557,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_MODULE_NAME = MaskMVI;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -591,49 +611,47 @@
 			};
 			name = Release;
 		};
-		75984B58241A12F5005A1EBC /* Debug */ = {
+		75984C1724208F0B005A1EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C097539B3F5BE2624B36636F /* Pods-MaskMVITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E2NU8747F2;
+				DEVELOPMENT_TEAM = S36JVGF378;
 				INFOPLIST_FILE = MaskMVITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.hanryangchan.MaskMVITests;
+				PRODUCT_MODULE_NAME = MaskMVITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskMVI.app/MaskMVI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/내주변마스크.app/내주변마스크";
 			};
 			name = Debug;
 		};
-		75984B59241A12F5005A1EBC /* Release */ = {
+		75984C1824208F0B005A1EBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88F2A5CCB939FEAA4ADE6B10 /* Pods-MaskMVITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E2NU8747F2;
+				DEVELOPMENT_TEAM = S36JVGF378;
 				INFOPLIST_FILE = MaskMVITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.hanryangchan.MaskMVITests;
+				PRODUCT_MODULE_NAME = MaskMVITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskMVI.app/MaskMVI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/내주변마스크.app/내주변마스크";
 			};
 			name = Release;
 		};
@@ -658,11 +676,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75984B57241A12F5005A1EBC /* Build configuration list for PBXNativeTarget "MaskMVITests" */ = {
+		75984C1624208F0B005A1EBC /* Build configuration list for PBXNativeTarget "MaskMVITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75984B58241A12F5005A1EBC /* Debug */,
-				75984B59241A12F5005A1EBC /* Release */,
+				75984C1724208F0B005A1EBC /* Debug */,
+				75984C1824208F0B005A1EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
