@@ -124,6 +124,21 @@ class MaskMapViewController: UIViewController {
         
     }
     
+    func updateBy(state: MaskState) {
+        
+        switch state {
+        case .error(let e):
+            print(e.msg ?? "")
+        case .result(let r):
+            addAnnoations(stores: r.stores.filter { $0.remain_stat != "break" })
+            let last = r.stores.filter { $0.created_at != nil }
+            if let ll = last.first {
+                infoView.setLastUpdateTime(ll.created_at ?? "")
+            }
+        }
+    }
+    
+    
     func update(state: MaskViewState) {
         
         switch state {

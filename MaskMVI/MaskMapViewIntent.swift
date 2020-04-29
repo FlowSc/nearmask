@@ -22,20 +22,29 @@ struct ErrorResult: MaskViewState {
     let e: MaskError
 }
 
+
+enum MaskState {
+    case result(_ r: ApiResult)
+    case error(_ e: MaskError)
+}
+
 class MaskMapViewIntent {
     
     private var vc: MaskMapViewController?
-    private let stateObserver = PublishRelay<MaskViewState>()
+    private let stateObserver = PublishRelay<MaskState>()
     private let network = MaskNetwork.shared
     private let disposeBag = DisposeBag()
     
     func bindTo(_ vc: MaskMapViewController) {
         
         self.vc = vc
-        
+  
         stateObserver.subscribe(onNext: { (state) in
-            self.vc?.update(state: state)
-        }).disposed(by: disposeBag)
+            self.vc?.updateBy(state: state)
+            }).disposed(by: disposeBag)
+//        stateObserver.subscribe(onNext: { (state) in
+//            self.vc?.update(state: state)
+//        }).disposed(by: disposeBag)
     }
     
     func loadResult(lat: String, lng: String, m: String) {
@@ -56,13 +65,20 @@ class MaskMapViewIntent {
         }.filterNil()
         
         success.subscribe(onNext: { (r) in
-            self.stateObserver.accept(MaskResult(r: r))
-        }).disposed(by: disposeBag)
-        
+            self.stateObserver.accept(.result(r))
+            }).disposed(by: disposeBag)
         
         failure.subscribe(onNext: { (e) in
-            self.stateObserver.accept(ErrorResult(e: e))
-        }).disposed(by: disposeBag)
+            self.stateObserver.accept(.error(e))
+            }).disposed(by: disposeBag)
+//        success.subscribe(onNext: { (r) in
+//            self.stateObserver.accept(MaskResult(r: r))
+//        }).disposed(by: disposeBag)
+        
+        
+//        failure.subscribe(onNext: { (e) in
+//            self.stateObserver.accept(ErrorResult(e: e))
+//        }).disposed(by: disposeBag)
     }
     
     func moveToMyLocation(_ my: CLLocationCoordinate2D) {
